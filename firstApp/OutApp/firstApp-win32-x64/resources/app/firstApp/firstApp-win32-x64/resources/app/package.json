@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.4.0",
+  "description": "\"firstApp\"",
+  "main": "main.js",
+  "dependencies": {
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packager": "electron-packager ./ firstApp --win --out firstApp --arch=x64 --version 1.4.13 --overwrite --icon=./icon.ico"
+  },
+  "keywords": [
+    "firstApp"
+  ],
+  "author": "xsc",
+  "license": "ISC"
+}
